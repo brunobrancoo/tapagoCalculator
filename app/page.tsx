@@ -115,7 +115,7 @@ export default function TapagoCalculator() {
           <h1 className="text-4xl font-bold text-gray-900 mb-2">
             O de hoje tá pago?
           </h1>
-          <p className="text-gray-600">Calculadora de filas e pagamentos</p>
+          <p className="text-gray-600">Calculadora onisciente</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-6">
