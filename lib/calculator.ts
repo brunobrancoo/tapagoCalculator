@@ -12,10 +12,11 @@ export function taPago(inFront: string, goal: string) {
   }
 
   let pagoCount = 0;
-  let naoPagoCount = 0;
 
   for (let i = 0; i < 10000; i++) {
-    isPaid() ? pagoCount++ : naoPagoCount++;
+    if (isPaid()) {
+      pagoCount++;
+    }
   }
 
   console.log("[v0] pago count: " + pagoCount);
