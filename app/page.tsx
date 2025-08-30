@@ -306,7 +306,7 @@ export default function TapagoCalculator() {
             </div>
             <DialogFooter>
               <Button onClick={handleCloseAlert} className="w-full">
-                OK
+                Confirmo que entendi.
               </Button>
             </DialogFooter>
           </DialogContent>
