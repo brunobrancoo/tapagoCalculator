@@ -1,0 +1,10 @@
+export function generateQueries(date: string) {
+  return [
+    `CREATE TABLE BKP_MOV_${date} SELECT * FROM MOV;`,
+    `CREATE TABLE BKP_VECLI_${date} SELECT * FROM VECLI;`,
+    `CREATE TABLE BKP_TELCLI_${date} SELECT * FROM TELCLI;`,
+    `CREATE TABLE BKP_HISTCLI_${date} SELECT * FROM HISTCLI;`,
+    `CREATE TABLE BKP_PROGNFE_${date} SELECT * FROM PROGNFE;`,
+    `CREATE TABLE BKP_CONTCUP_${date} SELECT * FROM CONTCUP;`,
+  ]
+}
