@@ -240,9 +240,7 @@ export default function TapagoCalculator() {
                 {showSecretMessage && (
                   <div className="absolute bottom-0 right-0 bg-yellow-100 border border-yellow-300 rounded-lg p-3 text-sm max-w-sm w-80 shadow-lg">
                     <p className="text-gray-800 leading-tight">
-                      Pra quem falou q eu (e be) éramos burros demais pra sermos
-                      devs, virei pleno em menos de um ano e ganho mais q vcs
-                      tmj!!
+                      Vai se foder Caio vai se foder José
                     </p>
                   </div>
                 )}
