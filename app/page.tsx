@@ -239,9 +239,7 @@ export default function TapagoCalculator() {
 
                 {showSecretMessage && (
                   <div className="absolute bottom-0 right-0 bg-yellow-100 border border-yellow-300 rounded-lg p-3 text-sm max-w-sm w-80 shadow-lg">
-                    <p className="text-gray-800 leading-tight">
-                      Vai se foder Caio vai se foder José
-                    </p>
+                    <p className="text-gray-800 leading-tight">te amo bibi</p>
                   </div>
                 )}
               </div>
